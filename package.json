@@ -1,0 +1,56 @@
+{
+  "name": "@davidcraig/react",
+  "version": "1.0.6",
+  "description": "Reusable unit tested react components for bulma css framework",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir dist",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dc-frontend/react-bulma.git"
+  },
+  "keywords": [
+    "React",
+    "Components",
+    "Bulma"
+  ],
+  "author": "David Craig <davidcraig1986@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dc-frontend/react-bulma/issues"
+  },
+  "homepage": "https://github.com/dc-frontend/react-bulma",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@storybook/addon-actions": "^5.3.6",
+    "@storybook/addon-docs": "^5.3.6",
+    "@storybook/addon-links": "^5.3.6",
+    "@storybook/addons": "^5.3.6",
+    "@storybook/react": "^5.3.6",
+    "@testing-library/react": "^9.4.0",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-react-docgen": "^4.1.0",
+    "bulma": "^0.8.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^24.9.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-is": "^16.12.0",
+    "react-test-renderer": "^16.12.0"
+  }
+}
