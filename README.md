@@ -1,14 +1,9 @@
-# React Bulma Components
+# React Components
 
-A set of bulma specific react js components
+A set of reusable react js components
 
-![Components: 5](https://img.shields.io/badge/components-5-orange)
+![Components: 1](https://img.shields.io/badge/components-1-orange)
 
 ## Components
 
- * Bulma
-   - Breadcrumbs
-   - Card
-   - Columns
-   - Navbar
-   - TabbedContent
+  - DataTable

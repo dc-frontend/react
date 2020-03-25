@@ -1,7 +1,7 @@
 {
   "name": "@davidcraig/react",
-  "version": "1.0.0",
-  "description": "Reusable unit tested react components for bulma css framework",
+  "version": "1.0.1",
+  "description": "Reusable unit tested react components",
   "main": "main.js",
   "scripts": {
     "test": "jest",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dc-frontend/react-bulma.git"
+    "url": "git+https://github.com/dc-frontend/react.git"
   },
   "keywords": [
     "React",
@@ -21,9 +21,9 @@
   "author": "David Craig <davidcraig1986@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dc-frontend/react-bulma/issues"
+    "url": "https://github.com/dc-frontend/react/issues"
   },
-  "homepage": "https://github.com/dc-frontend/react-bulma",
+  "homepage": "https://github.com/dc-frontend/react",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.3",
