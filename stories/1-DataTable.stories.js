@@ -20,7 +20,12 @@ export const DataTableStory = () => (
 
           <h2>Standard Example</h2>
           <p>The following is a standard use case of a navigation heirarchy with the current page being 'active'</p>
-          <pre><code>{``}</code></pre>
+          <pre><code>{`
+let items = [ { title: 'Item One' }, { title: 'Item Two' } ]
+<DataTable items={items}/>
+          `}</code></pre>
+
+          <DataTable items={[ { title: 'Item One' }, { title: 'Item Two' } ]} />
         </>
       )
     }

@@ -1,11 +1,12 @@
 {
   "name": "@davidcraig/react",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "description": "Reusable unit tested react components for bulma css framework",
   "main": "main.js",
   "scripts": {
     "test": "jest",
     "build": "babel src --out-dir dist",
+    "build-main": "babel main.js --out-dir .",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -15,8 +16,7 @@
   },
   "keywords": [
     "React",
-    "Components",
-    "Bulma"
+    "Components"
   ],
   "author": "David Craig <davidcraig1986@gmail.com>",
   "license": "ISC",

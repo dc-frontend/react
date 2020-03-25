@@ -1,5 +1,13 @@
-export { Card } from './dist/Card/Card'
-export { Breadcrumb, Breadcrumbs } from './dist/Breadcrumbs/Breadcrumbs'
-export { Column, Columns } from './dist/Columns/Columns'
-export { Navbar, Brand, Start, End, Item, Dropdown } from './dist/Navbar/Navbar'
-export { TabbedContent } from './dist/TabbedContent/TabbedContent'
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "DataTable", {
+  enumerable: true,
+  get: function get() {
+    return _DataTable.DataTable;
+  }
+});
+
+var _DataTable = require("./dist/DataTable/DataTable");
