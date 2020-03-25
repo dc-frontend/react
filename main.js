@@ -9,5 +9,12 @@ Object.defineProperty(exports, "DataTable", {
     return _DataTable.DataTable;
   }
 });
+Object.defineProperty(exports, "PaginatedDataTable", {
+  enumerable: true,
+  get: function get() {
+    return _PaginatedDataTable.PaginatedDataTable;
+  }
+});
 
 var _DataTable = require("./dist/DataTable/DataTable");
+var _PaginatedDataTable = require("./dist/PaginatedDataTable/PaginatedDataTable");
