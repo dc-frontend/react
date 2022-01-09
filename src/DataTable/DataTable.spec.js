@@ -1,4 +1,4 @@
-// Link.react.test.js
+/* globals test, expect */
 import React from 'react'
 import { DataTable } from './DataTable'
 import renderer from 'react-test-renderer'
