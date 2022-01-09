@@ -17,8 +17,8 @@ export class DataTable extends React.Component {
   getImplicitColumns () {
     const columns = {}
     if (typeof this.props.items !== 'undefined') {
-      this.props.items.map(i => {
-        Object.keys(i).map(col => {
+      this.props.items.forEach(i => {
+        Object.keys(i).forEach(col => {
           if (typeof columns[col] === 'undefined') {
             columns[col] = {
               field: col,
@@ -30,7 +30,7 @@ export class DataTable extends React.Component {
     }
 
     const columnArray = []
-    Object.keys(columns).map(col => {
+    Object.keys(columns).forEach(col => {
       columnArray.push(columns[col])
     })
 
@@ -40,9 +40,15 @@ export class DataTable extends React.Component {
   renderColumnHeadings () {
     const cols = this.getColumns()
 
-    return <tr key='headings'>{cols.map(c => {
-      return <th key={c.field}>{c.name}</th>
-    })}</tr>
+    return (
+      <tr key='headings'>
+        {
+          cols.map(c => {
+            return <th key={c.field}>{c.name}</th>
+          })
+        }
+      </tr>
+    )
   }
 
   getFieldKey (item, column) {
